@@ -36,7 +36,7 @@ Advisor: [Prof. Rohit Kumar Mishra](https://sites.google.com/view/rkmishra91)
 ## Contact
 
 **Office:** Room 433  
-[Johann Radon Institute for Computational and Applied Mathematics (RICAM)](https://www.ricam.oeaw.ac.at/)  
+Johann Radon Institute for Computational and Applied Mathematics (RICAM)  
 Austrian Academy of Sciences  
 Altenberger Straße 69  
 4040 Linz, Austria
