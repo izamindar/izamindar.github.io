@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am currently a Postdoctoral Researcher at the [Johann Radon Institute for Computational and Applied Mathematics (RICAM)](https://www.ricam.oeaw.ac.at/) as a part of the [Inverse Problems and Mathematical Imaging group](https://imna.ricam.oeaw.ac.at/) working under the mentorship of [Prof. Otmar Scherzer](https://www.oeaw.ac.at/ricam/staff/otmar-scherzer).
+I am currently a Postdoctoral Researcher at the [Johann Radon Institute for Computational and Applied Mathematics (RICAM)](https://www.ricam.oeaw.ac.at/) as a part of the [Inverse Problems and Mathematical Imaging group](https://www.oeaw.ac.at/ricam/research/groups/group-scherzer/team) working under the mentorship of [Prof. Otmar Scherzer](https://www.oeaw.ac.at/ricam/staff/otmar-scherzer).
 
 ## Research Interests
 - Inverse Problems
