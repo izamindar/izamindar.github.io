@@ -34,6 +34,7 @@ Advisor: [Prof. Rohit Kumar Mishra](https://sites.google.com/view/rkmishra91)
 - **CSIR-UGC NET (Mathematical Sciences)** – All India Rank **37**, 2020.
 
 ## Contact
+**Email:** [indrani.zamindar@ricam.oeaw.ac.at](mailto:indrani.zamindar@ricam.oeaw.ac.at)
 
 **Office:** Room 433  
 Johann Radon Institute for Computational and Applied Mathematics (RICAM)  
