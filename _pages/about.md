@@ -29,9 +29,9 @@ Advisor: [Prof. Rohit Kumar Mishra](https://sites.google.com/view/rkmishra91)
 
 ## Awards & Academic Achievements
 
-- **Prime Minister's Research Fellowship (PMRF)**, Government of India, 2022.
-- **GATE (Mathematics)** – All India Rank **116**, 2021.
-- **CSIR-UGC NET (Mathematical Sciences)** – All India Rank **37**, 2020.
+- Received **Prime Minister's Research Fellowship (PMRF)**, Government of India, 2022.
+- Qualified **GATE (Mathematics)** – All India Rank **116**, 2021.
+- Qualified **CSIR-UGC NET (Mathematical Sciences)** – All India Rank **37**, 2020.
 
 
 
