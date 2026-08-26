@@ -35,7 +35,7 @@ Advisor: [Prof. Rohit Kumar Mishra](https://sites.google.com/view/rkmishra91)
 
 ## Contact
 
-<div style="display: grid; grid-template-columns: 36% 64%; column-gap: 25px; align-items: start;">
+<div style="display: grid; grid-template-columns: 32% 68%; column-gap: 20px; align-items: start;">
 
   <div>
     <h3>Email</h3>
@@ -50,8 +50,9 @@ Advisor: [Prof. Rohit Kumar Mishra](https://sites.google.com/view/rkmishra91)
     <h3>Office</h3>
     <p>
       Room 433<br>
-      Johann Radon Institute for Computational and Applied Mathematics (RICAM)<br>
-      Austrian Academy of Sciences<br>
+      <span style="font-size: 0.86em; white-space: nowrap; display: block;">
+        Johann Radon Institute for Computational and Applied Mathematics (RICAM)
+      </span>
       Altenberger Straße 69<br>
       4040 Linz, Austria
     </p>
