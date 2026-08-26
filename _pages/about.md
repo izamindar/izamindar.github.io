@@ -35,11 +35,11 @@ Advisor: [Prof. Rohit Kumar Mishra](https://sites.google.com/view/rkmishra91)
 
 ## Contact
 
-<div style="display: grid; grid-template-columns: 32% 68%; column-gap: 20px; align-items: start;">
+<div style="display: grid; grid-template-columns: 500px 1fr; column-gap: 35px; align-items: start;">
 
   <div>
     <h3>Email</h3>
-    <p>
+    <p style="line-height: 1.7;">
       <a href="mailto:indrani.zamindar@ricam.oeaw.ac.at">indrani.zamindar@ricam.oeaw.ac.at</a><br>
       <a href="mailto:indrani.zamindar@oeaw.ac.at">indrani.zamindar@oeaw.ac.at</a><br>
       <a href="mailto:indranizamindar648@gmail.com">indranizamindar648@gmail.com</a>
@@ -48,14 +48,15 @@ Advisor: [Prof. Rohit Kumar Mishra](https://sites.google.com/view/rkmishra91)
 
   <div>
     <h3>Office</h3>
-    <p>
+    <p style="line-height: 1.7;">
       Room 433<br>
-      <span style="font-size: 0.86em; white-space: nowrap; display: block;">
-        Johann Radon Institute for Computational and Applied Mathematics (RICAM)
-      </span>
+      Johann Radon Institute for Computational and Applied Mathematics (RICAM)<br>
       Altenberger Straße 69<br>
       4040 Linz, Austria
     </p>
   </div>
 
 </div>
+      
+
+
