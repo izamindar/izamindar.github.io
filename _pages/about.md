@@ -1,11 +1,36 @@
 ---
 permalink: /
-title: "About me"
+title: ""
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
+
+<style>
+.ricam-banner {
+  width: 100%;
+  height: 220px;
+  margin-bottom: 28px;
+  background-image: url('/images/ricam.jpg');
+  background-size: cover;
+  background-position: center 55%;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.10);
+}
+
+@media (max-width: 768px) {
+  .ricam-banner {
+    height: 150px;
+  }
+}
+</style>
+
+<div class="ricam-banner"></div>
+
+## About me
+
 I am currently a Postdoctoral Researcher at the [Johann Radon Institute for Computational and Applied Mathematics (RICAM)](https://www.ricam.oeaw.ac.at/) as a part of the [Inverse Problems and Mathematical Imaging group](https://www.oeaw.ac.at/ricam/research/groups/group-scherzer/team) working under the mentorship of [Prof. Otmar Scherzer](https://www.oeaw.ac.at/ricam/staff/otmar-scherzer).
 
 ## Research Interests
