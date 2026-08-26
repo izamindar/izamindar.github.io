@@ -34,10 +34,29 @@ Advisor: [Prof. Rohit Kumar Mishra](https://sites.google.com/view/rkmishra91)
 - **CSIR-UGC NET (Mathematical Sciences)** – All India Rank **37**, 2020.
 
 ## Contact
-**Email:** [indrani.zamindar@ricam.oeaw.ac.at](mailto:indrani.zamindar@ricam.oeaw.ac.at)
 
-**Office:** Room 433  
-Johann Radon Institute for Computational and Applied Mathematics (RICAM)  
-Austrian Academy of Sciences  
-Altenberger Straße 69  
-4040 Linz, Austria
+<div style="display: flex; gap: 80px; align-items: flex-start; flex-wrap: wrap;">
+
+  <div style="flex: 1; min-width: 300px;">
+    <h3>Email</h3>
+
+    <p>
+      <a href="mailto:indrani.zamindar@ricam.oeaw.ac.at">indrani.zamindar@ricam.oeaw.ac.at</a><br>
+      <a href="mailto:indrani.zamindar@oeaw.ac.at">indrani.zamindar@oeaw.ac.at</a><br>
+      <a href="mailto:indranizamindar648@gmail.com">indranizamindar648@gmail.com</a>
+    </p>
+  </div>
+
+  <div style="flex: 1; min-width: 400px;">
+    <h3>Office</h3>
+
+    <p>
+      Room 433<br>
+      Johann Radon Institute for Computational and Applied Mathematics (RICAM)<br>
+      Austrian Academy of Sciences<br>
+      Altenberger Straße 69<br>
+      4040 Linz, Austria
+    </p>
+  </div>
+
+</div>
