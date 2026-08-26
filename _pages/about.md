@@ -35,9 +35,9 @@ Advisor: [Prof. Rohit Kumar Mishra](https://sites.google.com/view/rkmishra91)
 
 ## Contact
 
-<div style="display: flex; gap: 80px; align-items: flex-start; flex-wrap: wrap;">
+<div style="display: grid; grid-template-columns: 1fr 2fr; column-gap: 70px; align-items: start;">
 
-  <div style="flex: 1; min-width: 300px;">
+  <div>
     <h3>Email</h3>
 
     <p>
@@ -47,7 +47,7 @@ Advisor: [Prof. Rohit Kumar Mishra](https://sites.google.com/view/rkmishra91)
     </p>
   </div>
 
-  <div style="flex: 1; min-width: 400px;">
+  <div>
     <h3>Office</h3>
 
     <p>
