@@ -33,27 +33,48 @@ Advisor: [Prof. Rohit Kumar Mishra](https://sites.google.com/view/rkmishra91)
 - **GATE (Mathematics)** – All India Rank **116**, 2021.
 - **CSIR-UGC NET (Mathematical Sciences)** – All India Rank **37**, 2020.
 
-## Contact
 
-<div style="display: grid; grid-template-columns: 500px 1fr; column-gap: 35px; align-items: start;">
 
+<h2>Contact</h2>
+
+<div style="
+  display: grid;
+  grid-template-columns: 1fr 1.45fr;
+  column-gap: 80px;
+  max-width: 1100px;
+  margin: 25px auto 0 auto;
+  font-size: 0.88em;
+  line-height: 1.55;
+">
+
+  <!-- Email -->
   <div>
-    <h3>Email</h3>
-    <p style="line-height: 1.7;">
-      <a href="mailto:indrani.zamindar@ricam.oeaw.ac.at">indrani.zamindar@ricam.oeaw.ac.at</a><br>
-      <a href="mailto:indrani.zamindar@oeaw.ac.at">indrani.zamindar@oeaw.ac.at</a><br>
-      <a href="mailto:indranizamindar648@gmail.com">indranizamindar648@gmail.com</a>
-    </p>
+    <h3 style="margin-top:0; margin-bottom:8px; font-size:1.1em;">Email</h3>
+
+    <div>
+      <a href="mailto:indrani.zamindar@ricam.oeaw.ac.at">
+        indrani.zamindar@ricam.oeaw.ac.at
+      </a><br>
+
+      <a href="mailto:indrani.zamindar@oeaw.ac.at">
+        indrani.zamindar@oeaw.ac.at
+      </a><br>
+
+      <a href="mailto:indranizamindar648@gmail.com">
+        indranizamindar648@gmail.com
+      </a>
+    </div>
   </div>
 
+  <!-- Office -->
   <div>
-    <h3>Office</h3>
-    <p style="line-height: 1.7;">
+    <h3 style="margin-top:0; margin-bottom:8px; font-size:1.1em;">Office</h3>
+
+    <div>
       Room 433<br>
       Johann Radon Institute for Computational and Applied Mathematics (RICAM)<br>
-      Altenberger Straße 69<br>
-      4040 Linz, Austria
-    </p>
+      Altenberger Straße 69, 4040 Linz, Austria
+    </div>
   </div>
 
 </div>
