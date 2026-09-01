@@ -83,6 +83,18 @@ redirect_from:
   }
 }
 
+/* Fix employer name in left sidebar */
+.author__urls li {
+  white-space: normal !important;
+}
+
+.author__urls li span,
+.author__urls li a {
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
+  word-break: normal !important;
+}  
 </style>
 
 
