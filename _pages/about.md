@@ -6,38 +6,86 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 <style>
+
+/* Main content */
 .page__content {
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.55;
+  color: #3d4144;
 }
 
+/* Section headings */
 .page__content h2 {
-  font-size: 1.55em;
-  font-weight: 700;
-  color: #2f343a;
-  margin-top: 2.2rem;
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #333;
+  margin-top: 1.8rem;
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Paragraphs */
+.page__content p {
+  margin-top: 0;
   margin-bottom: 1rem;
-  padding-bottom: 0.45rem;
-  border-bottom: 1px solid #d9e0e6;
 }
 
-.page__content a {
-  color: #005a8d;
-}
-
-.page__content a:hover {
-  color: #003f66;
-}
-
+/* Research interests */
 .page__content ul {
-  margin-top: 0.5rem;
+  margin-top: 0.4rem;
+  margin-bottom: 1.4rem;
 }
 
 .page__content li {
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.3rem;
 }
+
+/* Links */
+.page__content a {
+  color: #0066b3;
+}
+
+/* Education entries */
+.page__content strong {
+  font-weight: 600;
+}
+
+/* Sidebar */
+.author__name {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.author__bio {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.author__urls {
+  font-size: 0.9rem;
+}
+
+/* Profile photograph */
+.author__avatar img {
+  max-width: 180px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .page__content {
+    font-size: 0.95rem;
+  }
+
+  .page__content h2 {
+    font-size: 1.25rem;
+  }
+}
+
 </style>
+
+
 
 ## About me
 
