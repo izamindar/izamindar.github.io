@@ -23,7 +23,7 @@ repository               : "izamindar/izamindar.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "pic.jpeg"
+  avatar           : "crop_hall.jpg"
   name             : "Indrani Zamindar"
   pronouns         : "she/her"  
   bio              : "Postdoctoral Researcher in Mathematics"
