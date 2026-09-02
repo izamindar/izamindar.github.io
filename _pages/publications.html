@@ -63,18 +63,21 @@ author_profile: true
   color: #383d43;
 }
 
-/* Coauthors: black and understated */
+
+/* Coauthors — black and underlined */
 
 .pub-authors a {
   color: #222 !important;
-  text-decoration: none !important;
-  border-bottom: none !important;
-  font-weight: 500;
+  text-decoration: underline !important;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-color: #777;
+  font-weight: 400;
 }
 
 .pub-authors a:hover {
   color: #222 !important;
-  text-decoration: underline !important;
+  text-decoration-color: #222;
 }
 
 
@@ -85,25 +88,31 @@ author_profile: true
   color: #4a4f55;
 }
 
-/* Journal names: primary highlighted links */
+
+/* Journal names — blue and underlined */
 
 .pub-venue a:not(.arxiv-link) {
   color: #005a8d !important;
-  text-decoration: none !important;
+  text-decoration: underline !important;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
   font-weight: 500;
 }
 
 .pub-venue a:not(.arxiv-link):hover {
-  text-decoration: underline !important;
+  color: #003f63 !important;
 }
 
 
-/* Accepted journal */
+/* Accepted journal — blue and underlined */
 
 .accepted-journal {
   color: #005a8d !important;
   font-style: italic;
   font-weight: 500;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 
@@ -118,6 +127,7 @@ author_profile: true
 }
 
 .arxiv-link:hover {
+  color: #234f73 !important;
   text-decoration: underline !important;
 }
 
@@ -200,6 +210,7 @@ author_profile: true
 <div class="pub-section-title">Published / Accepted</div>
 
 <ol class="pub-list">
+
 
   <!-- Paper 1 -->
 
@@ -292,8 +303,7 @@ author_profile: true
          target="_blank">
         Rohit Kumar Mishra
       </a>
-      and
-      Anamika Purohit.
+      and Anamika Purohit.
     </div>
 
     <div class="pub-venue">
@@ -360,4 +370,5 @@ author_profile: true
 
 
 </div>
+
  
