@@ -223,7 +223,6 @@
   vertical-align: middle;
   font-family: $sans-serif;
   z-index: 10;
-  position: relative;
   cursor: pointer;
 
   li:last-child {
@@ -234,6 +233,8 @@
 
   @include breakpoint($large) {
     display: block;
+    margin-top: 22px;
+    margin-left: 12px;
   }
 
   button {
@@ -244,6 +245,7 @@
     }
   }
 }
+
 
 .author__urls {
   display: none;
