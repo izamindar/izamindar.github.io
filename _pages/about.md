@@ -112,7 +112,7 @@ I am currently a Postdoctoral Researcher at the [Johann Radon Institute for Comp
 
 ## Education
 
-**Ph.D. in Mathematics**, [Indian Institute of Technology Gandhinagar (IIT Gandhinagar)](https://iitgn.ac.in/), India  
+**Ph.D. in Mathematics**, [Indian Institute of Technology Gandhinagar](https://iitgn.ac.in/), India  
 July 2021–May 2026  
 Thesis: *Study of Generalized V-line Transforms on Tensor Fields*  
 Advisor: [Prof. Rohit Kumar Mishra](https://sites.google.com/view/rkmishra91)
