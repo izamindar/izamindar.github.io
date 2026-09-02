@@ -8,93 +8,153 @@ redirect_from:
 ---
 <style>
 
-/* Main content */
+/* ---------- Overall typography ---------- */
+
+body {
+  font-family: "Avenir Next", "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #33383f;
+}
+
 .page__content {
-  font-size: 1rem;
-  line-height: 1.55;
-  color: #3d4144;
+  font-size: 0.96rem;
+  line-height: 1.58;
+  color: #3b4046;
 }
 
-/* Section headings */
+
+/* ---------- Section headings ---------- */
+
 .page__content h2 {
-  font-size: 1.35rem;
+  font-size: 1.38rem;
   font-weight: 600;
-  color: #333;
-  margin-top: 1.8rem;
-  margin-bottom: 0.8rem;
-  padding-bottom: 0.35rem;
-  border-bottom: 1px solid #e5e5e5;
+  letter-spacing: -0.015em;
+  color: #2d3339;
+
+  margin-top: 2.25rem;
+  margin-bottom: 1rem;
+
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid #dde2e6;
 }
 
-/* Paragraphs */
+/* About me should not start too low */
+.page__content h2:first-of-type {
+  margin-top: 0;
+}
+
+
+/* ---------- Paragraphs ---------- */
+
 .page__content p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-/* Research interests */
+
+/* ---------- Links ---------- */
+
+.page__content a {
+  color: #005f8f;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.page__content a:hover {
+  color: #003f60;
+}
+
+
+/* ---------- Research interests ---------- */
+
 .page__content ul {
-  margin-top: 0.4rem;
+  margin-top: 0.45rem;
   margin-bottom: 1.4rem;
+  padding-left: 1.45rem;
 }
 
 .page__content li {
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.28rem;
 }
 
-/* Links */
-.page__content a {
-  color: #0066b3;
-}
 
-/* Education entries */
+/* ---------- Education ---------- */
+
 .page__content strong {
   font-weight: 600;
+  color: #343a40;
 }
 
-/* Sidebar */
+
+/* ---------- Sidebar ---------- */
+
+.author__avatar img {
+  max-width: 175px;
+}
+
 .author__name {
-  font-size: 1.05rem;
+  font-size: 1.08rem;
   font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
 }
 
 .author__bio {
-  font-size: 0.9rem;
-  line-height: 1.4;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  margin-top: 0.35rem;
+  margin-bottom: 0.8rem;
 }
 
 .author__urls {
-  font-size: 0.9rem;
+  font-size: 0.86rem;
+  line-height: 1.45;
 }
 
-/* Profile photograph */
-.author__avatar img {
-  max-width: 180px;
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-  .page__content {
-    font-size: 0.95rem;
-  }
-
-  .page__content h2 {
-    font-size: 1.25rem;
-  }
-}
-
-/* Fix employer name in left sidebar */
 .author__urls li {
-  white-space: normal !important;
+  margin-bottom: 0.3rem;
 }
 
+
+/* ---------- Full RICAM affiliation ---------- */
+
+.author__urls li,
 .author__urls li span,
 .author__urls li a {
   white-space: normal !important;
   overflow: visible !important;
   text-overflow: unset !important;
   word-break: normal !important;
-}  
+}
+
+
+/* ---------- Navigation ---------- */
+
+.masthead,
+.greedy-nav {
+  font-family: "Avenir Next", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.greedy-nav a {
+  font-weight: 500;
+}
+
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 768px) {
+
+  .page__content {
+    font-size: 0.93rem;
+  }
+
+  .page__content h2 {
+    font-size: 1.28rem;
+    margin-top: 1.8rem;
+  }
+
+}
+
 </style>
 
 
