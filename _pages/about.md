@@ -235,10 +235,10 @@ July 2021–May 2026
 Thesis: *Study of Generalized V-line Transforms on Tensor Fields*  
 Advisor: [Prof. Rohit Kumar Mishra](https://sites.google.com/view/rkmishra91)
 
-**M.Sc. in Mathematics**, [Visva-Bharati University](https://www.visvabharati.ac.in/), India  
+**M.Sc. in Mathematics**, [Visva-Bharati](https://www.visvabharati.ac.in/), India  
 2017–2019
 
-**B.Sc. (Honours) in Mathematics**, [Visva-Bharati University](https://www.visvabharati.ac.in/), India  
+**B.Sc. (Honours) in Mathematics**, [Visva-Bharati](https://www.visvabharati.ac.in/), India  
 2014–2017
 
 ## Awards & Academic Achievements
