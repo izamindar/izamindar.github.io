@@ -6,15 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-/* Keep sidebar links clickable and blue */
-.author__urls li a {
-  color: #0066cc !important;
-  text-decoration: none;
-}
 
-.author__urls li a:hover {
-  text-decoration: underline;
-}
 <style>
 
 /* ---------- Overall typography ---------- */
@@ -198,6 +190,28 @@ body {
 .page__content h2 {
   margin-top: 2.4rem;
   margin-bottom: 1.05rem;
+}
+  /* Fix employer name in left sidebar */
+.author__urls li {
+  white-space: normal !important;
+}
+
+.author__urls li span,
+.author__urls li a {
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
+  word-break: normal !important;
+}
+
+/* Keep sidebar links blue */
+.author__urls li a {
+  color: #0066cc !important;
+  text-decoration: none;
+}
+
+.author__urls li a:hover {
+  text-decoration: underline;
 }
 </style>
 
