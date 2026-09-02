@@ -7,7 +7,9 @@ author_profile: true
 
 <style>
 
-/* ---------- PUBLICATION PAGE ---------- */
+/* =========================================================
+   PUBLICATIONS PAGE
+   ========================================================= */
 
 .publication-page {
   font-family: "Avenir Next", "Segoe UI", Helvetica, Arial, sans-serif;
@@ -17,33 +19,34 @@ author_profile: true
 }
 
 
-/* Section labels */
+/* ---------- Section headings ---------- */
 
 .pub-section-title {
   font-size: 1.20rem;
   font-weight: 600;
   color: #234f73;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-top: 2.1rem;
+  margin-bottom: 1.1rem;
   padding-bottom: 0.35rem;
   border-bottom: 1px solid #dfe4e8;
 }
 
 
-/* Publication list */
+/* ---------- Publication list ---------- */
 
 .pub-list {
   margin-top: 0;
+  margin-bottom: 2rem;
   padding-left: 1.6rem;
 }
 
 .pub-list li {
   padding-left: 0.25rem;
-  margin-bottom: 1.35rem;
+  margin-bottom: 1.45rem;
 }
 
 
-/* Paper title */
+/* ---------- Paper titles ---------- */
 
 .pub-title {
   font-weight: 500;
@@ -52,46 +55,59 @@ author_profile: true
 }
 
 
-/* Author line */
+/* ---------- Authors ---------- */
 
 .pub-authors {
   margin-top: 0.15rem;
   margin-bottom: 0.15rem;
+  color: #383d43;
 }
 
-
-/* Coauthors: black but clickable */
+/* Coauthors: black and understated */
 
 .pub-authors a {
   color: #222 !important;
-  text-decoration: none;
-  border-bottom: 1px solid #777;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  font-weight: 500;
 }
 
 .pub-authors a:hover {
-  color: #005a8d !important;
-  border-bottom-color: #005a8d;
+  color: #222 !important;
+  text-decoration: underline !important;
 }
 
 
-/* Journal / venue */
+/* ---------- Journal / publication information ---------- */
 
 .pub-venue {
   margin-top: 0.15rem;
   color: #4a4f55;
 }
 
-.pub-venue a {
+/* Journal names: primary highlighted links */
+
+.pub-venue a:not(.arxiv-link) {
   color: #005a8d !important;
-  text-decoration: none;
+  text-decoration: none !important;
+  font-weight: 500;
 }
 
-.pub-venue a:hover {
-  text-decoration: underline;
+.pub-venue a:not(.arxiv-link):hover {
+  text-decoration: underline !important;
 }
 
 
-/* arXiv */
+/* Accepted journal */
+
+.accepted-journal {
+  color: #005a8d !important;
+  font-style: italic;
+  font-weight: 500;
+}
+
+
+/* ---------- arXiv ---------- */
 
 .arxiv-link {
   color: #355f85 !important;
@@ -106,26 +122,28 @@ author_profile: true
 }
 
 
-/* Accepted journal name */
-
-.accepted-journal {
-  color: #005a8d;
-  font-style: italic;
-}
-
-
-/* Mobile */
+/* ---------- Mobile ---------- */
 
 @media (max-width: 768px) {
 
   .publication-page {
     font-size: 0.93rem;
+    line-height: 1.5;
   }
 
   .pub-section-title {
     font-size: 1.12rem;
+    margin-top: 1.7rem;
   }
 
+  .pub-list {
+    padding-left: 1.35rem;
+  }
+
+  .pub-list li {
+    padding-left: 0.1rem;
+    margin-bottom: 1.25rem;
+  }
 }
 
 </style>
@@ -133,6 +151,10 @@ author_profile: true
 
 <div class="publication-page">
 
+
+<!-- =====================================================
+     SUBMITTED
+     ===================================================== -->
 
 <div class="pub-section-title">Submitted</div>
 
@@ -146,14 +168,23 @@ author_profile: true
 
     <div class="pub-authors">
       with
-      <a href="https://sites.google.com/view/rkmishra91">Rohit Kumar Mishra</a>
+      <a href="https://sites.google.com/view/rkmishra91"
+         target="_blank">
+        Rohit Kumar Mishra
+      </a>
       and
-      <a href="https://roysouvik2.github.io/">Souvik Roy</a>.
+      <a href="https://roysouvik2.github.io/"
+         target="_blank">
+        Souvik Roy
+      </a>.
     </div>
 
     <div class="pub-venue">
       <a class="arxiv-link"
-         href="https://arxiv.org/abs/2608.21966">[arXiv]</a>
+         href="https://arxiv.org/abs/2608.21966"
+         target="_blank">
+        [arXiv]
+      </a>
     </div>
 
   </li>
@@ -162,9 +193,15 @@ author_profile: true
 
 
 
+<!-- =====================================================
+     PUBLISHED / ACCEPTED
+     ===================================================== -->
+
 <div class="pub-section-title">Published / Accepted</div>
 
 <ol class="pub-list">
+
+  <!-- Paper 1 -->
 
   <li>
 
@@ -174,20 +211,33 @@ author_profile: true
 
     <div class="pub-authors">
       with
-      <a href="https://websites.uta.edu/gambarts/">Gaik Ambartsoumian</a>
+      <a href="https://websites.uta.edu/gambarts/"
+         target="_blank">
+        Gaik Ambartsoumian
+      </a>
       and
-      <a href="https://sites.google.com/view/rkmishra91">Rohit Kumar Mishra</a>.
+      <a href="https://sites.google.com/view/rkmishra91"
+         target="_blank">
+        Rohit Kumar Mishra
+      </a>.
     </div>
 
     <div class="pub-venue">
       Accepted for publication in
-      <span class="accepted-journal">SIAM Journal on Applied Mathematics</span>.
+      <span class="accepted-journal">
+        SIAM Journal on Applied Mathematics
+      </span>.
       <a class="arxiv-link"
-         href="https://arxiv.org/abs/2509.00922">[arXiv]</a>
+         href="https://arxiv.org/abs/2509.00922"
+         target="_blank">
+        [arXiv]
+      </a>
     </div>
 
   </li>
 
+
+  <!-- Paper 2 -->
 
   <li>
 
@@ -197,22 +247,38 @@ author_profile: true
 
     <div class="pub-authors">
       with
-      <a href="https://websites.uta.edu/gambarts/">Gaik Ambartsoumian</a>
+      <a href="https://websites.uta.edu/gambarts/"
+         target="_blank">
+        Gaik Ambartsoumian
+      </a>
       and
-      <a href="https://sites.google.com/view/rkmishra91">Rohit Kumar Mishra</a>.
+      <a href="https://sites.google.com/view/rkmishra91"
+         target="_blank">
+        Rohit Kumar Mishra
+      </a>.
     </div>
 
     <div class="pub-venue">
-      <a href="https://epubs.siam.org/doi/10.1137/24M1689028">
+
+      <a href="https://epubs.siam.org/doi/10.1137/24M1689028"
+         target="_blank">
         SIAM Journal on Imaging Sciences
       </a>,
+
       18(1), 597–630, 2025.
+
       <a class="arxiv-link"
-         href="https://arxiv.org/abs/2405.03249">[arXiv]</a>
+         href="https://arxiv.org/abs/2405.03249"
+         target="_blank">
+        [arXiv]
+      </a>
+
     </div>
 
   </li>
 
+
+  <!-- Paper 3 -->
 
   <li>
 
@@ -222,21 +288,35 @@ author_profile: true
 
     <div class="pub-authors">
       with
-      <a href="https://sites.google.com/view/rkmishra91">Rohit Kumar Mishra</a>
-      and Anamika Purohit.
+      <a href="https://sites.google.com/view/rkmishra91"
+         target="_blank">
+        Rohit Kumar Mishra
+      </a>
+      and
+      Anamika Purohit.
     </div>
 
     <div class="pub-venue">
-      <a href="https://link.springer.com/article/10.1007/s13324-025-01014-4">
+
+      <a href="https://link.springer.com/article/10.1007/s13324-025-01014-4"
+         target="_blank">
         Analysis and Mathematical Physics
       </a>,
+
       15:23, 2025.
+
       <a class="arxiv-link"
-         href="https://arxiv.org/abs/2411.04145">[arXiv]</a>
+         href="https://arxiv.org/abs/2411.04145"
+         target="_blank">
+        [arXiv]
+      </a>
+
     </div>
 
   </li>
 
+
+  <!-- Paper 4 -->
 
   <li>
 
@@ -246,25 +326,38 @@ author_profile: true
 
     <div class="pub-authors">
       with
-      <a href="https://websites.uta.edu/gambarts/">Gaik Ambartsoumian</a>
+      <a href="https://websites.uta.edu/gambarts/"
+         target="_blank">
+        Gaik Ambartsoumian
+      </a>
       and
-      <a href="https://sites.google.com/view/rkmishra91">Rohit Kumar Mishra</a>.
+      <a href="https://sites.google.com/view/rkmishra91"
+         target="_blank">
+        Rohit Kumar Mishra
+      </a>.
     </div>
 
     <div class="pub-venue">
-      <a href="https://iopscience.iop.org/article/10.1088/1361-6420/ad1f83">
+
+      <a href="https://iopscience.iop.org/article/10.1088/1361-6420/ad1f83"
+         target="_blank">
         Inverse Problems
       </a>,
+
       40(3):035003, 2024.
+
       <a class="arxiv-link"
-         href="https://arxiv.org/abs/2306.13245">[arXiv]</a>
+         href="https://arxiv.org/abs/2306.13245"
+         target="_blank">
+        [arXiv]
+      </a>
+
     </div>
 
   </li>
 
 </ol>
 
+
 </div>
-
-
-
+ 
