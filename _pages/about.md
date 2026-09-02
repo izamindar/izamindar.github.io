@@ -6,6 +6,15 @@ redirect_from:
   - /about/
   - /about.html
 ---
+/* Keep sidebar links clickable and blue */
+.author__urls li a {
+  color: #0066cc !important;
+  text-decoration: none;
+}
+
+.author__urls li a:hover {
+  text-decoration: underline;
+}
 <style>
 
 /* ---------- Overall typography ---------- */
