@@ -155,6 +155,41 @@ body {
 
 }
 
+  /* Fix employer name in left sidebar */
+.author__urls li {
+  white-space: normal !important;
+}
+
+.author__urls li span,
+.author__urls li a {
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
+  word-break: normal !important;
+}
+
+
+/* Give the main content more breathing room */
+.page {
+  width: calc(100% - 260px);
+  padding-left: 2rem;
+}
+
+.sidebar {
+  width: 230px;
+}
+
+/* Slightly relax body text */
+.page__content {
+  font-size: 0.98rem;
+  line-height: 1.62;
+}
+
+/* Slightly more space between sections */
+.page__content h2 {
+  margin-top: 2.4rem;
+  margin-bottom: 1.05rem;
+}
 </style>
 
 
